@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-
-
-    <title>Ratatouille</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>LPU_TWEET</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.ico" sizes="16x16">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" href="/stylesheet/styles1.css">
 </head>
-
 <body>
-
+  <header>
+    <h1 class="title">LPU_TWEET</h1>
+  </header>
+  <main>
+    <form class="mew-form">
+      <label for="name">Name</label>
+      <input class="u-full-width" type="text" id="name" name="name">
+      <label for="content">Mew</label>
+      <textarea class="u-full-width" type="text" id="content" name="content"></textarea>
+      <!-- <label for="image">Picture to upload</label>
+      <input type="file" class="u-full-width" id="image" name="image"> -->
+      <button class="button-primary">Send Your Tweet 😸</button>
+    </form>
     
-    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-</body>
+    <div class="loading">
+      <img src="loading.gif" alt="">
+    </div>
 
+    <div class="mews">
+
+    </div>
+  </main>
+  <script src="/SCRIPT/client.js"></script>
+</body>
 </html>

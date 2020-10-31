@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Syne+Tactile&display=swap');
+/* font-family: 'Henny Penny', cursive; */
+/* font-family: 'Syne Tactile', cursive; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #16222a, #3a6073);
+    /* font-family: 'Syne Tactile', cursive; */
+}
+.navbar{
+    font-size: 22px;
+}
+.navbar-header a{
+    font-size: 32px;
+}
+.hero
+    {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+    .hero>h1
+    {
+        
+        text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+        font-size: 100px;
+        font-family: 'Henny Penny', cursive;
+        
+    }
+
+.main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+.mews {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 20px 20px 5px #1f1e1e;
+  }
+  .mews:hover{
+    box-shadow: none;
+    /* transform: translate(20px, 20px); */
+  }
+  
+  .mews > div {
+    background: hsl(0, 0%, 95%);
+    padding: 12px;
+    border-radius: 4px;
+  }
+  
+  .mews > div > h3 {
+    word-wrap: break-word;
+  }
+  
+  .mews > div > p {
+    word-wrap: break-word;
+  }
+  
+  .mews > div:not(:last-child) {
+    margin-bottom: 15px;
+  }
