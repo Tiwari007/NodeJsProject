@@ -7,7 +7,12 @@ body{
   text-align: center;
 }
 
-
+.navbar{
+  font-size: 22px;
+}
+.navbar-header a{
+  font-size: 32px;
+}
 
 .mew-form, .loading {
   width: 50%;
@@ -41,5 +46,7 @@ body{
 .mews > div:not(:last-child) {
   margin-bottom: 8px;
 }
+
+
 
 

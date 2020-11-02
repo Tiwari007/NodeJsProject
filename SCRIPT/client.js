@@ -4,20 +4,16 @@ const mewsElement = document.querySelector('.mews');
 
 const ApiUrl = "http://localhost:5000/mews";
 
+
 loadingElement.style.display = '';
 
 listAllMews();
-
-
-
-
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const formData = new FormData(form);
   const name = formData.get('name');
   const content = formData.get('content');
-
 
     const mew = {
       name,
@@ -39,8 +35,6 @@ form.addEventListener('submit', (event) => {
         listAllMews();
         
     })
-    
-    
     
 });
 

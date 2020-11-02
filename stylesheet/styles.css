@@ -39,6 +39,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 } 
 
+.jumbotron{
+  /* background: linear-gradient(to right, #3b3c49, #29382e); */
+}
+
 .mews {
     width: 40%;
     margin: 0 auto;
@@ -67,3 +71,73 @@ body{
   .mews > div:not(:last-child) {
     margin-bottom: 15px;
   }
+
+  #signup,#login{
+    background: linear-gradient(to right, #0d0f0d, #192e27);
+    width: 100px;
+    margin-right: 20px;
+  }
+
+
+
+
+  
+
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-logo{
+  position: relative;
+  margin-left: -41.5%;
+}
+.login-logo img{
+  position: absolute;
+  width: 20%;
+  margin-top: 19%;
+  background: #282726;
+  border-radius: 4.5rem;
+  padding: 5%;
+}
+.login-form-1{
+  padding: 9%;
+  background: linear-gradient(to right, #283131, #141412);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.938), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color:#fff;
+}
+.login-form-2{
+  padding: 9%;
+  background: linear-gradient(to right, #141e30, #243b55);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  margin-bottom:12%;
+  color: #fff;
+}
+.btnSubmit{
+  font-weight: 600;
+  width: 50%;
+  color: #282726;
+  background-color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding:2%;
+}
+
+.btnSubmit:hover{
+  background: linear-gradient(to right, #5874a8, #399274);
+}
+.btnForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.btnForgetPwd:hover{
+  text-decoration:none;
+  color:rgb(196, 124, 31);
+}
